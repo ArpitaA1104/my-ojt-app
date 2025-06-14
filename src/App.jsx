@@ -21,12 +21,12 @@ function App() {
   return (
     <>
     <div>
-        {/* Your main application content */}
+        
         <DeveloperInfoPopup
           show={showPopup}
           onClose={handleClosePopup}
           studentName="Arpita Sitaram Atigre"
-          studentPhotoUrl="/images/apps.jpg" // Path to their photo
+          studentPhotoUrl="/images/apps.jpg" 
           uniqueMessage="Learned so much during this OJT! This app showcases my independent coding and deployment skills"
         />
       </div>
